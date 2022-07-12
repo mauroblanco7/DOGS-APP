@@ -1,0 +1,26 @@
+li{
+    list-style:none
+}
+.buttonPAG{
+    padding: 5px;
+    background-color: #373D20;
+    color: antiquewhite;
+    border: none;
+    width: 30px;
+    border-radius: 3px;
+    transition: 0.4s;
+    cursor: pointer;
+    
+}
+.buttonPAG:hover{
+    background-color: antiquewhite;
+    color: #766153;
+}
+.lipag{
+    display: inline;
+    width: 100px;
+    margin-left: 20px;
+}
+.uld {
+    width: 90%;
+}

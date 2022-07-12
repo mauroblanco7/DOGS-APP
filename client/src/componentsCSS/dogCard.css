@@ -1,0 +1,148 @@
+
+.card {
+    width: 220px;
+    height: 340px;
+    box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+               -15px -15px 30px rgba(60, 60, 60, 0.082);
+    display: flex;
+    flex-direction: column;
+    background-color: #BCBD8B;
+    border: 5px solid #766153 ;
+    border-radius: 10px;
+    transition: all .3s;
+  }
+  .card:hover{
+    margin-top: -10px;
+  }
+.img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.det {
+
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center ;
+   gap: 5px;
+
+}
+.det h2 {
+    font-size: 18px;
+    margin: 0px;
+    color: black;
+    
+
+}
+.det h4{
+    font-size: 15px;
+    margin: 0px;
+     color: black;
+
+}
+.det p{
+    font-size: 13px;
+    margin: 0px;
+    width: 100%;
+    color: black;
+    background-color: #baba9a;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+}
+
+
+/* .card {
+
+
+
+    width: 220px;
+    height: 200px;
+    transition: all .5s;
+    box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+               -15px -15px 30px rgba(60, 60, 60, 0.082);
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    height: 300px;
+    background: linear-gradient(360deg, #edededc5 60%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card .header {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: #212121;
+    margin-bottom: 16px;
+  }
+  
+  .card .header .img-box {
+    width: 50px;
+  }
+
+.img {
+    object-fit: cover;
+    width: 200px;
+    height: 150px;
+   
+}
+  
+  .card .header .title {
+    font-size: 1.1em;
+    letter-spacing: .1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 4px 0 14px 0;
+    transition: all .5s;
+    color: #edededc5;
+  }
+  
+  .card:hover .header {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
+  }
+  
+  .card:hover .card .header .title {
+    padding: 0;
+  }
+  
+  .card .content {
+    display: block;
+    text-align: justify;
+    color: #212121;
+    margin: 0 18px;
+  }
+  
+  .card .content p {
+    transition: all .5s;
+    font-size: 1em;
+    margin-bottom: 8px;
+  }
+  
+  .card .content a {
+    color: #1d8122;
+    cursor: pointer;
+    transition: all .5s;
+    font-size: .8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .card .content .btn-link:hover {
+    border-bottom: 1px solid #1d8122;
+  }
+  .title {
+    position: absolute;
+    max-width: 200px;
+  }
+  .content h1 {
+    font-size: 20px;
+  } */

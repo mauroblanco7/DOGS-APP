@@ -1,0 +1,103 @@
+.navbardiv{
+    width: 100vw;
+    top: 0;
+    height: 85px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #373d20;
+    z-index: 1000;
+    border-bottom: 3px solid rgb(37, 36, 36);
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo p {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 37px;
+    margin-bottom: 3px;
+    color: #BCBD8B;
+}
+.logo img {
+    margin-right: 20px;
+    width: 200px;
+}
+
+
+   .cssbuttons-io-button {
+    background: #717744;
+    color: #EFF1ED;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #735959;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+   }
+   
+   .cssbuttons-io-button .icon {
+    background: #EFF1ED;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #766153;
+    right: 0.3em;
+    transition: all 0.3s;
+   }
+   
+   .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+   }
+   
+   .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #766153;
+   }
+   
+   .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+   }
+   
+   .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+   }
+   
+
+.link-create{
+    text-decoration: none;
+    color: #EFF1ED;
+    font-size: 1.225em;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+}
+.navbardiv img {
+    /* width: 140px; */
+    margin-left: 20px;
+}
+.titledet{
+    
+    color: #BCBD8B;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+   

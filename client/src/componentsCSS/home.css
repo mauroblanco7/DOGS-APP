@@ -1,0 +1,122 @@
+
+.pagina {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+}
+.cardContainer{
+
+    margin: 0 auto;
+}
+.link{
+    text-decoration: none;
+}
+.main {
+    background-color: #EFF1ED;
+
+}
+.filters{
+ 
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 10px;
+    background-color: #766153;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 3px solid #BCBD8B;
+    border-top: 3px solid #BCBD8B;
+}
+.filters div {
+    display: flex;
+    flex-direction: column;
+}
+.filters h4 {
+    margin: 0 auto;
+    font-size: 15px;
+}
+.select {
+    width: 100px;
+    background-color: #EFF1ED;
+    border-style: none;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    width: 150px;
+    margin-top: 5px;
+    
+}
+.btn-all {
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    background-color:#BCBD8B ;
+    color: #373D20;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 550;
+    transition: all 0.3555s;
+    cursor: pointer;
+}
+.btn-all:hover {
+    background-color:#373D20 ;
+    color: #BCBD8B;
+}
+.btn-filter{
+    width: 150px;
+    height: 20px;
+    margin-top: 5px;
+    background-color:#BCBD8B ;
+    color: #373D20;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 550;
+    transition: all 0.3555s;
+    cursor: pointer;
+}
+.btn-filter:hover {
+    background-color:#373D20 ;
+    color: #BCBD8B;
+}
+.loader-main {
+    margin-left: 45vw;
+}
+.div-not-found{
+
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 38vw;
+    background-color: #373D20;
+    border: 3px solid #766153;
+    border-radius: 5px;
+    color: antiquewhite;
+}
+.div-not-found img {
+    width: 150px;
+    height: 100px;
+    margin: 0;
+    padding: 0px;
+  
+}
+.div-not-found h4  {
+   
+    margin-top: 0;
+}
+.div-not-found h5  {
+
+    margin-top: 0;
+}

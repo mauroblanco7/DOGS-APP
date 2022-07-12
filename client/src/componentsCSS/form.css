@@ -1,0 +1,57 @@
+.form {
+
+    display: inline-flex;
+    flex-direction: column;
+   
+    gap: 7px;
+    margin-left: 500px;
+    padding: 40px;
+    padding-bottom: 0px;
+
+}
+.fieldform{
+
+    display: flex;
+    gap: 5px;
+  
+    
+}
+.fieldform label {
+    font-size: 18px;
+    font-weight: 700;
+}
+.fieldform strong {
+
+    font-size: 12px;
+    max-width: 200px;
+}
+.errormes{
+   margin-left: 30px;
+}
+.titleform{ 
+ 
+  display: block;
+  margin-left: 500px;
+  margin-right: 500px;
+  height: 20px;
+}
+.concatFiltro{
+    padding: 2px;
+    border-radius: 3px;
+    background-color: #373D20;
+    color: antiquewhite;
+    width: 150px;
+}
+.concatFiltro button {
+    background-color: #717744;
+    border: none; 
+    margin-right: 3px;
+    margin-bottom: 3px;
+    border-radius: 3px;
+    
+}
+.fieldtemperaments{
+
+    display: flex;
+    flex-direction: column;
+}
